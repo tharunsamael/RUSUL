@@ -15,7 +15,7 @@ class Apps extends React.Component {
         basename={process.env.PUBLIC_URL}
       >
         <Switch>
-          <Route path={"/"} component={App} exact={true}></Route>
+          <Route path={"/RUSUL"} component={App} exact={true}></Route>
           <Route path={"/signup"} component={Signupbox}></Route>
           <Route path={"/login"} component={Loginbox}></Route>
         </Switch>
