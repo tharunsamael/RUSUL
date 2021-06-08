@@ -21,4 +21,4 @@ class Apps extends React.Component {
   }
 }
 
-render(<Apps />, document.getElementById("root"));
+render(<App />, document.getElementById("root"));
