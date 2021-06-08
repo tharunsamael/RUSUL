@@ -19,6 +19,8 @@ function Signupform() {
     event.preventDefault();
   };
 
+  const passwordChangeHandler = (event) => {};
+
   return (
     <div className="form">
       <form onSubmit={submitChangeHandler}>
