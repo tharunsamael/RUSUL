@@ -12,9 +12,19 @@ class Apps extends React.Component {
     return (
       <Router history={createBrowserHistory()}>
         <Switch>
-          <Route path={"/"} component={App} exact={true}></Route>
-          <Route path={"/signup"} component={Signupbox}></Route>
-          <Route path={"/login"} component={Loginbox}></Route>
+          <Route
+            path={process.env.PUBLIC_URL + "/"}
+            component={App}
+            exact={true}
+          ></Route>
+          <Route
+            path={process.env.PUBLIC_URL + "/signup"}
+            component={Signupbox}
+          ></Route>
+          <Route
+            path={process.env.PUBLIC_URL + "/login"}
+            component={Loginbox}
+          ></Route>
         </Switch>
       </Router>
     );
