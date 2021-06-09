@@ -19,7 +19,7 @@ function Signupform() {
         <div className="login">
           <span>Need an account?</span>
           <Link
-            to={process.env.PUBLIC_URL + "/signup"}
+            to={"/signup"}
             style={{ textDecoration: "none", color: "#318ce7" }}
           >
             Register

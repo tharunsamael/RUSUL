@@ -43,7 +43,7 @@ function Signupform() {
         </div>
         <div className="login">
           <Link
-            to={process.env.PUBLIC_URL + "/login"}
+            to={"/login"}
             style={{ textDecoration: "none", color: "#318ce7" }}
           >
             Already have an account?
