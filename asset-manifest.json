@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/RUSUL/static/css/main.4e456284.chunk.css",
-    "main.js": "/RUSUL/static/js/main.f6d6c679.chunk.js",
-    "main.js.map": "/RUSUL/static/js/main.f6d6c679.chunk.js.map",
+    "main.css": "/RUSUL/static/css/main.9e8ada5e.chunk.css",
+    "main.js": "/RUSUL/static/js/main.ba4d6827.chunk.js",
+    "main.js.map": "/RUSUL/static/js/main.ba4d6827.chunk.js.map",
     "runtime-main.js": "/RUSUL/static/js/runtime-main.04b9cf0c.js",
     "runtime-main.js.map": "/RUSUL/static/js/runtime-main.04b9cf0c.js.map",
-    "static/js/2.31923bbd.chunk.js": "/RUSUL/static/js/2.31923bbd.chunk.js",
-    "static/js/2.31923bbd.chunk.js.map": "/RUSUL/static/js/2.31923bbd.chunk.js.map",
+    "static/js/2.6a7cbd8a.chunk.js": "/RUSUL/static/js/2.6a7cbd8a.chunk.js",
+    "static/js/2.6a7cbd8a.chunk.js.map": "/RUSUL/static/js/2.6a7cbd8a.chunk.js.map",
     "index.html": "/RUSUL/index.html",
-    "static/css/main.4e456284.chunk.css.map": "/RUSUL/static/css/main.4e456284.chunk.css.map",
-    "static/js/2.31923bbd.chunk.js.LICENSE.txt": "/RUSUL/static/js/2.31923bbd.chunk.js.LICENSE.txt"
+    "static/css/main.9e8ada5e.chunk.css.map": "/RUSUL/static/css/main.9e8ada5e.chunk.css.map",
+    "static/js/2.6a7cbd8a.chunk.js.LICENSE.txt": "/RUSUL/static/js/2.6a7cbd8a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.04b9cf0c.js",
-    "static/js/2.31923bbd.chunk.js",
-    "static/css/main.4e456284.chunk.css",
-    "static/js/main.f6d6c679.chunk.js"
+    "static/js/2.6a7cbd8a.chunk.js",
+    "static/css/main.9e8ada5e.chunk.css",
+    "static/js/main.ba4d6827.chunk.js"
   ]
 }
