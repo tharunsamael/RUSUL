@@ -1,24 +1,47 @@
-.outline {
-  position: relative;
-  background-color: #303030;
-  margin-top: 5%;
-  margin-left: 31%;
-  margin-right: 30%;
-  margin-bottom: 5%;
-  border-radius: 9px;
-  padding-bottom: 1%;
+@media screen and (min-width: 486px) {
+  .outline {
+    position: relative;
+    background-color: #303030;
+    margin-top: 5%;
+    margin-left: 31%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    border-radius: 9px;
+    padding-bottom: 1%;
+  }
+
+  .sign {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: #f4f4ff;
+    text-align: center;
+  }
+
+  .login-head {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: #f4f4ff;
+    text-align: center;
+  }
 }
 
-.sign {
-  padding-top: 4%;
-  padding-bottom: 4%;
-  color: #f4f4ff;
-  text-align: center;
-}
+@media screen and (max-width: 485px) {
+  .outline {
+    background-color: #303030;
+    height: 100%;
+  }
 
-.login-head {
-  padding-top: 4%;
-  padding-bottom: 4%;
-  color: #f4f4ff;
-  text-align: center;
+  .sign {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: #f4f4ff;
+    text-align: center;
+  }
+
+  .login-head {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: #f4f4ff;
+    text-align: center;
+  }
 }

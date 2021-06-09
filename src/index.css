@@ -7,9 +7,18 @@
 html {
   font-family: "Noto Sans JP", sans-serif;
 }
+@media screen and (min-width: 485px) {
+  body {
+    margin: 0;
+    align-items: center;
+    background-color: #f8f8ff;
+  }
+}
 
-body {
-  margin: 0;
-  align-items: center;
-  background-color: #f8f8ff;
+@media screen and (max-width: 484px) {
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+  }
 }
