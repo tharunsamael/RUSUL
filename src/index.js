@@ -10,9 +10,9 @@ import React from "react";
 class Apps extends React.Component {
   render() {
     return (
-      <Router history={createBrowserHistory() path={process.env.PUBLIC_URL}>
+      <Router history={createBrowserHistory() path={process.env.PUBLIC_URL + '/'}>
         <Switch>
-          <Route path={"/RUSUL"} component={App} exact={true}></Route>
+          <Route path={"/"} component={App} exact={true}></Route>
           <Route path={"/signup"} component={Signupbox}></Route>
           <Route path={"/login"} component={Loginbox}></Route>
         </Switch>
