@@ -1,13 +1,7 @@
-@media screen and (min-width: 486px) {
+@media all and (max-width: 493px) {
   .outline {
-    position: relative;
     background-color: #303030;
-    margin-top: 5%;
-    margin-left: 31%;
-    margin-right: 30%;
-    margin-bottom: 5%;
-    border-radius: 9px;
-    padding-bottom: 1%;
+    height: 100%;
   }
 
   .sign {
@@ -25,10 +19,15 @@
   }
 }
 
-@media screen and (max-width: 485px) {
+@media all and (min-width: 493px) {
   .outline {
     background-color: #303030;
-    height: 100%;
+    margin-top: 5%;
+    margin-left: 31%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    border-radius: 9px;
+    padding-bottom: 1%;
   }
 
   .sign {
