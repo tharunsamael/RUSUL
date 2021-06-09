@@ -1,11 +1,11 @@
 import "./index.css";
 import { App } from "./Signup/root";
 import React from "react";
-import { render } from "react";
-import { App } from "./Signup/root";
+import { render } from "react-dom";
 import Signupbox from "./Signup/Signupbox";
 import Loginbox from "./Login/Loginbox";
 import { Router, Route, Switch } from "react-router-dom";
+import { createBrowserHistory } from "history";
 
 class Apps extends React.Component {
   render() {
