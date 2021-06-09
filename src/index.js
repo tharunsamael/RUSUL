@@ -12,11 +12,7 @@ class Apps extends React.Component {
     return (
       <Router history={createBrowserHistory()}>
         <Switch>
-          <Route
-            path={process.env.PUBLIC_URL + "/"}
-            component={App}
-            exact={true}
-          ></Route>
+          <Route path={"/"} component={App} exact={true}></Route>
           <Route
             path={process.env.PUBLIC_URL + "/signup"}
             component={Signupbox}
