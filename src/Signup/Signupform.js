@@ -44,7 +44,7 @@ function Signupform() {
         <div className="login">
           <Link
             to={"/login"}
-            style={{ textDecoration: "none", color: "#318ce7" }}
+            style={{ textDecoration: "none", color: "#0873c9" }}
           >
             Already have an account?
           </Link>

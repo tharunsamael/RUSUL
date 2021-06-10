@@ -7,7 +7,7 @@ function Signupform() {
       <form>
         <div className="mail">
           <label>EMAIL OR PHONE NUMBER OR USERNAME</label>
-          <input type="email"></input>
+          <input type="email" type="name" type="tel"></input>
         </div>
         <div className="password">
           <label>PASSWORD</label>
@@ -20,7 +20,7 @@ function Signupform() {
           <span>Need an account?</span>
           <Link
             to={"/signup"}
-            style={{ textDecoration: "none", color: "#318ce7" }}
+            style={{ textDecoration: "none", color: "#0873c9" }}
           >
             Register
           </Link>

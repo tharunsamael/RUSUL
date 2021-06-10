@@ -9,7 +9,7 @@ label {
   text-align: left;
   margin-left: 9%;
   margin-bottom: 1%;
-  color: #c0c0c0;
+  color: #0873c9;
   font-style: normal;
   font-size: 10px;
   font-weight: bold;
@@ -17,19 +17,19 @@ label {
 
 input {
   margin-bottom: 3%;
-  background: #5b5b5b;
+  background: #a7c2e5;
   padding: 12px;
   border-style: none;
   outline: none;
   border-radius: 3px;
   width: 83%;
   height: 39px;
-  color: #f1f1f1;
+  color: #281f23;
 }
 
 input:focus {
-  border-color: #7cb9e8;
-  box-shadow: 0 0 6px 0 #7cb9e8;
+  border-color: #0873c9;
+  box-shadow: 0 0 6px 0 #0873c9;
 }
 
 .login {
@@ -41,10 +41,10 @@ input:focus {
   width: 83%;
   height: 42px;
   margin-top: 2%;
-  background: #318ce7;
+  background: #0873c9;
   border-style: none;
   border-radius: 3px;
-  color: #d3d3d3;
+  color: #e1e9ee;
   cursor: pointer;
   font-size: medium;
   text-align: center;

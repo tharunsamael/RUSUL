@@ -8,17 +8,20 @@ html {
   font-family: "Noto Sans JP", sans-serif;
 }
 
-@media all and (max-width: 493px) {
+@media all and (max-width: 484px) {
   body {
     margin: 0;
     height: 100%;
-    background-color: #303030;
+    background-color: #6ebebd;
   }
 }
-@media all and (min-width: 493px) {
+@media all and (min-width: 484px) {
   body {
     margin: 0;
     align-items: center;
     background-color: #f1f1f1;
+    background-image: url("./bg\ blue.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
   }
 }

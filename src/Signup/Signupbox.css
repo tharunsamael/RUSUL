@@ -1,10 +1,10 @@
-@media all and (max-width: 493px) {
+@media all and (max-width: 484px) {
   .brand {
     margin-top: 15%;
     color: #f4f4ff;
   }
   .outline {
-    background-color: #303030;
+    background-color: #e1e9ee;
     margin-top: 15%;
     height: 100%;
   }
@@ -12,13 +12,13 @@
   .sign {
     padding-top: 4%;
     padding-bottom: 4%;
-    color: #f4f4ff;
+    color: #0873c9;
     text-align: left;
     margin-left: 9%;
   }
 }
 
-@media all and (min-width: 493px) {
+@media all and (min-width: 484px) {
   .brand {
     align-items: center;
     margin-top: 5%;
@@ -36,16 +36,16 @@
     bottom: 0px;
     right: 0px;
     width: 458px;
-    height: 458px;
-    background-color: #303030;
+    height: 445px;
+    background-color: #e1e9ee;
+    border: 2px solid #6ebebd;
     border-radius: 8px;
-    padding-bottom: 1%;
   }
 
   .sign {
     padding-top: 4%;
     padding-bottom: 4%;
-    color: #f4f4ff;
+    color: #0873c9;
     text-align: center;
   }
 }
