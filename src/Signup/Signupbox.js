@@ -4,7 +4,7 @@ import Brandname from "./Brandname";
 
 function Signupbox() {
   return (
-    <div>
+    <div className="brand">
       <div>
         <Brandname></Brandname>
       </div>

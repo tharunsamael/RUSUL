@@ -1,6 +1,10 @@
 @media all and (max-width: 493px) {
+  .brand {
+    margin-top: 15%;
+  }
   .outline {
     background-color: #303030;
+    margin-top: 15%;
     height: 100%;
   }
 
