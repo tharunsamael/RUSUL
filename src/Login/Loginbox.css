@@ -1,10 +1,15 @@
 @media all and (max-width: 493px) {
-  .outline {
+  .brand {
+    margin-top: 15%;
+  }
+
+  .inline {
     background-color: #303030;
+    margin-top: 20%;
     height: 100%;
   }
 
-  .sign {
+  .login-head {
     padding-top: 4%;
     padding-bottom: 4%;
     color: #f4f4ff;
@@ -13,26 +18,26 @@
 }
 
 @media all and (min-width: 493px) {
-  .out {
+  .in {
     position: relative;
     width: 460px;
     height: 460px;
     margin: 20px auto;
   }
-  .outline {
+  .inline {
     position: absolute;
     left: 0px;
     top: 0px;
     bottom: 0px;
     right: 0px;
     width: 458px;
-    height: 458px;
+    height: 385px;
     background-color: #303030;
-    border-radius: 8px;
+    border-radius: 9px;
     padding-bottom: 1%;
   }
 
-  .sign {
+  .login-head {
     padding-top: 4%;
     padding-bottom: 4%;
     color: #f4f4ff;

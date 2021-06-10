@@ -1,6 +1,6 @@
 import "./Signupbox.css";
 import Signupform from "./Signupform";
-import Brandname from './Brandname';
+import Brandname from "./Brandname";
 
 function Signupbox() {
   return (
@@ -8,11 +8,13 @@ function Signupbox() {
       <div>
         <Brandname></Brandname>
       </div>
-      <div className="outline">
-        <div className="sign">
-          <h2>Create an account</h2>
+      <div className="out">
+        <div className="outline">
+          <div className="sign">
+            <h2>Create an account</h2>
+          </div>
+          <Signupform></Signupform>
         </div>
-        <Signupform></Signupform>
       </div>
     </div>
   );
