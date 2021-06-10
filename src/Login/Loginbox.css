@@ -1,6 +1,7 @@
 @media all and (max-width: 493px) {
   .brand {
     margin-top: 15%;
+    color: #f4f4ff;
   }
 
   .inline {
@@ -13,7 +14,8 @@
     padding-top: 4%;
     padding-bottom: 4%;
     color: #f4f4ff;
-    text-align: center;
+    text-align: left;
+    margin-left: 9%;
   }
 }
 
