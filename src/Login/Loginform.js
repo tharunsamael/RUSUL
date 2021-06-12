@@ -7,7 +7,7 @@ function Signupform() {
       <form>
         <div className="mail">
           <label>EMAIL OR PHONE NUMBER OR USERNAME</label>
-          <input type="email" type="name" type="tel"></input>
+          <input type="email"></input>
         </div>
         <div className="password">
           <label>PASSWORD</label>

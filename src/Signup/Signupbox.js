@@ -1,11 +1,13 @@
 import "./Signupbox.css";
 import Signupform from "./Signupform";
 import Brandname from "./Brandname";
+import bg from "../bg blue.png";
 
 function Signupbox() {
+  document.body.style.backgroundImage = `url('${bg}')`;
   return (
-    <div className="brand">
-      <div>
+    <div className="bname">
+      <div className="brand">
         <Brandname></Brandname>
       </div>
       <div className="out">

@@ -1,0 +1,56 @@
+.rform {
+  padding-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.rform label {
+  display: block;
+  text-align: left;
+  margin-left: 9%;
+  margin-bottom: 1%;
+  color: #0873c9;
+  font-style: normal;
+  font-size: 95%;
+  font-weight: 5px;
+}
+.rform input {
+  display: block;
+  margin-left: 37%;
+  margin-top: -5%;
+  margin-bottom: 5%;
+  width: 53%;
+  height: 39px;
+  background-color: #a7c2e5;
+}
+input:focus {
+  border-color: #0873c9;
+  box-shadow: 0 0 6px 0 #0873c9;
+}
+
+.bio textarea {
+  display: block;
+  margin-left: 37%;
+  margin-top: -5%;
+  margin-bottom: 4%;
+  width: 53%;
+  height: 69px;
+  outline: none;
+  border-style: none;
+  background-color: #a7c2e5;
+  cursor: ns-resize;
+}
+
+.rsubmit button {
+  width: 53%;
+  height: 41px;
+  margin-left: 27%;
+  background: #0873c9;
+  border-style: none;
+  border-radius: 3px;
+  color: #e1e9ee;
+  cursor: pointer;
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
+}
